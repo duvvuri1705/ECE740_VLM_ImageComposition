@@ -1,3 +1,4 @@
+import os
 from model_utils import load_model, get_vision_tower
 from caption_image import caption_image
 from draw_bounding_box import draw_bounding_box
@@ -10,8 +11,12 @@ model, tokenizer = load_model(model_path)
 vision_tower = get_vision_tower(model)
 image_processor = vision_tower.image_processor
 
+dataset_folder = 'dataset'
+image_filename = '10403.jpg'
+
+image_path = os.path.join(dataset_folder, image_filename)
 # Run image captioning and draw bounding box
-image, output = caption_image('/content/10403.jpg', 'Give exact coordinates to place an apple in the image', image_processor, tokenizer, model)
+image, output = caption_image(image_path, 'Give exact coordinates to place an apple in the image', image_processor, tokenizer, model)
 coordinates = eval(output)  # Convert string output to a Python list
 image_with_box = draw_bounding_box(image.copy(), coordinates)
 image_with_box.show()  # Show the image with the bounding box
