@@ -36,10 +36,13 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
 1. **Clone the Repository:**
       - Clone the LLaVA repository to your machine using `git clone -b v1.0 https://github.com/camenduru/LLaVA`
       - Navigate to the directory using `cd LLaVA`
+        
 2. **Install Required Dependencies:**
       - Ensure you have python installed and install the gradio using `pip install -q gradio .`
+        
 3. **Run the code:**
       - Open google colab or any IDE and start running the project. Ensure that LLaVA and the project files are in the same directory.
+        
 4. **Expected Output for Basic Task:**
       - The bounding box coordinates will be printed on the console.
       - The generated image with the bounding box drawn will be displayed.
