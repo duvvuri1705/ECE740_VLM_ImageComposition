@@ -1,5 +1,8 @@
-torch
-transformers
-Pillow
-requests
-llava
+Dependencies for the Project
+
+  - torch(Pytorch): For running the model.
+  - transformers: For handling the LLaVA model and tokenizer.
+  - Pillow: For image processing (loading images and drawing the bounding box)
+  - Requests: For downloading images from URLs
+  - llava: For the custom LLaVA utilities and modules.
+  - gradio  
