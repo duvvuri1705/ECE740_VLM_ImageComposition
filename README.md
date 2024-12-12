@@ -46,3 +46,8 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
 4. **Expected Output for Basic Task:**
       - The bounding box coordinates will be printed on the console.
       - The generated image with the bounding box drawn will be displayed.
+
+
+## Acknowledgments 
+
+This project is build upon the [LLaVA repository](https://github.com/camenduru/LLaVA) and uses the model and architecture for vision-language tasks.
