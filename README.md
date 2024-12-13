@@ -42,6 +42,7 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
         
 3. **Run the code:**
       - Open google colab or any IDE and start running the project. Ensure that LLaVA and the project files are in the same directory.
+      - Note: GPU is required for running basic and advanced task to ensure faster execution and efficient storage and processing of the Llava model.
         
 4. **Expected Output for Basic Task:**
       - The bounding box coordinates will be printed on the console.
