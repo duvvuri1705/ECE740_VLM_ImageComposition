@@ -41,11 +41,14 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
       - Ensure you have python installed and install the gradio using `pip install -q gradio .`
         
 3. **Run the code:**
-      - Open google colab or any IDE and start running the project. Ensure that LLaVA and the project files are in the same directory.
-      - Note: GPU is required for running basic and advanced task to ensure faster execution and efficient storage and processing of the Llava model.
+      - Open google colab or any IDE of your choice.
+      -  Ensure that the LLaVA repository and the project files are in the same directory.
+      - To execute the **Basic Task**, run the `Basic_Task_BoundingBoxGeneration.ipynb` file or follow the [Google Colab Link](https://colab.research.google.com/drive/1RW6mDTjAJByzz-PJtQgzHWLAhqNz6nNZ?usp=sharing) 
+      - To execute the **Advanced Task**, run the `Advance_Task_ImageComposition.ipynb` file or follow the [Google Colab Link](https://colab.research.google.com/drive/1RW6mDTjAJByzz-PJtQgzHWLAhqNz6nNZ?usp=sharing)
+      - Note: A GPU is required for both tasks to process the LLaVA model and to ensure faster execution and efficient storage.
         
 4. **Expected Output for Basic Task:**
-      - The bounding box coordinates will be printed on the console.
+      - The bounding box coordinates will be printed to the console.
       - The generated image with the bounding box drawn will be displayed.
   
 5. **Expected Output for Advanced Task:**
