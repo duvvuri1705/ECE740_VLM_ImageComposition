@@ -45,7 +45,10 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
       -  Ensure that the LLaVA repository and the project files are in the same directory.
       - To execute the **Basic Task**, run the `Basic_Task_BoundingBoxGeneration.ipynb` file or follow the [Google Colab Link](https://colab.research.google.com/drive/1RW6mDTjAJByzz-PJtQgzHWLAhqNz6nNZ?usp=sharing) 
       - To execute the **Advanced Task**, run the `Advance_Task_ImageComposition.ipynb` file or follow the [Google Colab Link](https://colab.research.google.com/drive/1RW6mDTjAJByzz-PJtQgzHWLAhqNz6nNZ?usp=sharing)
-      - Note: A GPU is required for both tasks to process the LLaVA model and to ensure faster execution and efficient storage.
+
+**Note:** 
+- To skip the installation steps, you can directly run the scripts using the provided Google Colab Links provided
+- A GPU is required for both tasks to process the LLaVA model and to ensure faster execution and efficient storage.
         
 4. **Expected Output for Basic Task:**
       - The bounding box coordinates will be printed to the console.
@@ -54,7 +57,6 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
 5. **Expected Output for Advanced Task:**
       - A composite image will be generated, displaying the object placed at the specified bounding box coordinates on the background image.
       - Necessary adjustments like cropping the image will be done to fit the object patch in the bounding box.
-
 
 ## Acknowledgments 
 
