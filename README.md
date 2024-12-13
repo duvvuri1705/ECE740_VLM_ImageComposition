@@ -46,6 +46,10 @@ This project demonstrates the use of a Vision Language Model (LLaVA) for image c
 4. **Expected Output for Basic Task:**
       - The bounding box coordinates will be printed on the console.
       - The generated image with the bounding box drawn will be displayed.
+  
+5. **Expected Output for Advanced Task:**
+      - A composite image will be generated, displaying the object placed at the specified bounding box coordinates on the background image.
+      - Necessary adjustments like cropping the image will be done to fit the object patch in the bounding box.
 
 
 ## Acknowledgments 
